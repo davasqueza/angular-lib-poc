@@ -1,6 +1,16 @@
 {
   "name": "angular-lib-poc",
   "version": "0.0.0",
+  "main": "dist/angular-lib-poc/bundles/angular-lib-poc.umd.js",
+  "module": "dist/angular-lib-poc/fesm5/angular-lib-poc.js",
+  "es2015": "dist/angular-lib-poc/fesm2015/angular-lib-poc.js",
+  "esm5": "dist/angular-lib-poc/esm5/angular-lib-poc.js",
+  "esm2015": "dist/angular-lib-poc/esm2015/angular-lib-poc.js",
+  "fesm5": "dist/angular-lib-poc/fesm5/angular-lib-poc.js",
+  "fesm2015": "dist/angular-lib-poc/fesm2015/angular-lib-poc.js",
+  "typings": "dist/angular-lib-poc/angular-lib-poc.d.ts",
+  "metadata": "dist/angular-lib-poc/angular-lib-poc.metadata.json",
+  "sideEffects": false,
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
