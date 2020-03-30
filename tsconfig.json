@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "angular-lib-poc": [
+        "dist/angular-lib-poc"
+      ],
+      "angular-lib-poc/*": [
+        "dist/angular-lib-poc/*"
+      ]
+    }
   }
 }
