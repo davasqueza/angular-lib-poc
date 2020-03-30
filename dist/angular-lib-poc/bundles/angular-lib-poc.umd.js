@@ -42,7 +42,9 @@
         AngularLibPocComponent.decorators = [
             { type: i0.Component, args: [{
                         selector: 'lib-angular-lib-poc',
-                        template: "\n    <p>\n      angular-lib-poc works!\n    </p>\n  "
+                        template: "\n    <p>\n      angular-lib-poc works!\n    </p>\n  ",
+                        encapsulation: i0.ViewEncapsulation.None,
+                        styles: ['./lib-angular-lib-poc.css']
                     }] }
         ];
         /** @nocollapse */

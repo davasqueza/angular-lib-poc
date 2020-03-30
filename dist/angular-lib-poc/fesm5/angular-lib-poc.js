@@ -1,4 +1,4 @@
-import { Injectable, NgModule, Component, defineInjectable } from '@angular/core';
+import { Injectable, Component, ViewEncapsulation, NgModule, defineInjectable } from '@angular/core';
 
 /**
  * @fileoverview added by tsickle
@@ -38,7 +38,9 @@ var AngularLibPocComponent = /** @class */ (function () {
     AngularLibPocComponent.decorators = [
         { type: Component, args: [{
                     selector: 'lib-angular-lib-poc',
-                    template: "\n    <p>\n      angular-lib-poc works!\n    </p>\n  "
+                    template: "\n    <p>\n      angular-lib-poc works!\n    </p>\n  ",
+                    encapsulation: ViewEncapsulation.None,
+                    styles: ['./lib-angular-lib-poc.css']
                 }] }
     ];
     /** @nocollapse */

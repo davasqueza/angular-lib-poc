@@ -1,4 +1,4 @@
-import { Injectable, Component, NgModule, defineInjectable } from '@angular/core';
+import { Injectable, Component, ViewEncapsulation, NgModule, defineInjectable } from '@angular/core';
 
 /**
  * @fileoverview added by tsickle
@@ -37,7 +37,9 @@ AngularLibPocComponent.decorators = [
     <p>
       angular-lib-poc works!
     </p>
-  `
+  `,
+                encapsulation: ViewEncapsulation.None,
+                styles: ['./lib-angular-lib-poc.css']
             }] }
 ];
 /** @nocollapse */
