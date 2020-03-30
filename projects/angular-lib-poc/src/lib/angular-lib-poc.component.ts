@@ -7,7 +7,7 @@ import {Component, OnInit, ViewEncapsulation} from '@angular/core';
       angular-lib-poc works!
     </p>
   `,
-  styles: ['./lib-angular-lib-poc.css'],
+  styleUrls: ['./angular-lib-poc.css'],
   encapsulation: ViewEncapsulation.None
 })
 export class AngularLibPocComponent implements OnInit {

@@ -44,7 +44,7 @@
                         selector: 'lib-angular-lib-poc',
                         template: "\n    <p>\n      angular-lib-poc works!\n    </p>\n  ",
                         encapsulation: i0.ViewEncapsulation.None,
-                        styles: ['./lib-angular-lib-poc.css']
+                        styles: [".form-control{background-color:red}"]
                     }] }
         ];
         /** @nocollapse */

@@ -39,7 +39,7 @@ AngularLibPocComponent.decorators = [
     </p>
   `,
                 encapsulation: ViewEncapsulation.None,
-                styles: ['./lib-angular-lib-poc.css']
+                styles: [".form-control{background-color:red}"]
             }] }
 ];
 /** @nocollapse */
