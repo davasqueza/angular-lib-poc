@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, ViewEncapsulation} from '@angular/core';
 
 @Component({
   selector: 'lib-angular-lib-poc',
@@ -7,7 +7,8 @@ import { Component, OnInit } from '@angular/core';
       angular-lib-poc works!
     </p>
   `,
-  styles: []
+  styles: ['./lib-angular-lib-poc.css'],
+  encapsulation: ViewEncapsulation.None
 })
 export class AngularLibPocComponent implements OnInit {
 
