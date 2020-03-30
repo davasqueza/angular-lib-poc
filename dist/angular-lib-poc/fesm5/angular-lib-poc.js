@@ -1,4 +1,5 @@
-import { Injectable, Component, ViewEncapsulation, NgModule, defineInjectable } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { Injectable, NgModule, Component, ViewEncapsulation, defineInjectable } from '@angular/core';
 
 /**
  * @fileoverview added by tsickle
@@ -50,6 +51,100 @@ var AngularLibPocComponent = /** @class */ (function () {
 
 /**
  * @fileoverview added by tsickle
+ * Generated from: lib/modulo2/componente2/componente2.component.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+var Componente2Component = /** @class */ (function () {
+    function Componente2Component() {
+    }
+    /**
+     * @return {?}
+     */
+    Componente2Component.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    Componente2Component.decorators = [
+        { type: Component, args: [{
+                    selector: 'lib-componente2',
+                    template: "<p>\n  componente2 works!\n</p>\n",
+                    styles: [""]
+                }] }
+    ];
+    /** @nocollapse */
+    Componente2Component.ctorParameters = function () { return []; };
+    return Componente2Component;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * Generated from: lib/modulo2/modulo2.module.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+var Modulo2Module = /** @class */ (function () {
+    function Modulo2Module() {
+    }
+    Modulo2Module.decorators = [
+        { type: NgModule, args: [{
+                    declarations: [Componente2Component],
+                    imports: [
+                        CommonModule
+                    ]
+                },] }
+    ];
+    return Modulo2Module;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * Generated from: lib/modulo1/componente1/componente1.component.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+var Componente1Component = /** @class */ (function () {
+    function Componente1Component() {
+    }
+    /**
+     * @return {?}
+     */
+    Componente1Component.prototype.ngOnInit = /**
+     * @return {?}
+     */
+    function () {
+    };
+    Componente1Component.decorators = [
+        { type: Component, args: [{
+                    selector: 'lib-componente1',
+                    template: "<p>\n  componente1 works!\n</p>\n",
+                    styles: [""]
+                }] }
+    ];
+    /** @nocollapse */
+    Componente1Component.ctorParameters = function () { return []; };
+    return Componente1Component;
+}());
+
+/**
+ * @fileoverview added by tsickle
+ * Generated from: lib/modulo1/modulo1.module.ts
+ * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
+ */
+var Modulo1Module = /** @class */ (function () {
+    function Modulo1Module() {
+    }
+    Modulo1Module.decorators = [
+        { type: NgModule, args: [{
+                    declarations: [Componente1Component],
+                    imports: [
+                        CommonModule
+                    ]
+                },] }
+    ];
+    return Modulo1Module;
+}());
+
+/**
+ * @fileoverview added by tsickle
  * Generated from: lib/angular-lib-poc.module.ts
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
@@ -59,7 +154,10 @@ var AngularLibPocModule = /** @class */ (function () {
     AngularLibPocModule.decorators = [
         { type: NgModule, args: [{
                     declarations: [AngularLibPocComponent],
-                    imports: [],
+                    imports: [
+                        Modulo1Module,
+                        Modulo2Module,
+                    ],
                     exports: [AngularLibPocComponent]
                 },] }
     ];
@@ -78,6 +176,6 @@ var AngularLibPocModule = /** @class */ (function () {
  * @suppress {checkTypes,constantProperty,extraRequire,missingOverride,missingReturn,unusedPrivateMembers,uselessCode} checked by tsc
  */
 
-export { AngularLibPocService, AngularLibPocComponent, AngularLibPocModule };
+export { AngularLibPocService, AngularLibPocComponent, AngularLibPocModule, Componente1Component as ɵb, Modulo1Module as ɵa, Componente2Component as ɵd, Modulo2Module as ɵc };
 
 //# sourceMappingURL=angular-lib-poc.js.map
